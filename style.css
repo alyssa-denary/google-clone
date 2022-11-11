@@ -253,7 +253,7 @@ input[type="search"] {
 }
 
 #search-buttons ul li {
-  font-style: Arial;
+  font-family: Arial;
   font-size: 14px;
 }
 
@@ -265,8 +265,10 @@ input[type="search"] {
   margin: 8px;
 }
 
+/* Troubleshoot hover border not showing */
 #search-buttons ul li button:hover {
-  border: 5px black;
+  border-width: 5px;
+  border-color: black;
 }
 
 .search-img {
